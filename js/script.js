@@ -68,7 +68,7 @@ const validateInput = function (input) {
 const makeGuess = function (guess) {
   guess = guess.toUpperCase();
   if (guessedLetters.includes(guess)) {
-    message.innerText = "You already guessed that letter, silly. Try again.";
+    message.innerText = "You already guessed that letter, silly goose egg. Try again.";
   } else {
     guessedLetters.push(guess);
     console.log(guessedLetters);
